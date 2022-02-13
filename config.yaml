@@ -1,8 +1,8 @@
 token: ""
 path:
   - "/mnt/plots"
-minerName: <name-of-your-miner>
-apiKey: <apiKey>
+minerName: xch1uwu6m38tp8gcmqaa2eyz4mjkdqs0tt7uuk2m8mgft6ekch80jvqswdhmlh
+apiKey: chiapp00-dfc9-45a2-990c-2a435bb72491
 cachePath: ""
 deviceId: ""
 extraParams: {}
