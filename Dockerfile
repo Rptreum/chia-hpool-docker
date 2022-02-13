@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
   unzip \
   && rm -rf /var/lib/apt/lists/*
 WORKDIR /tmp/hpool
-RUN curl -L -o hpool-miner.zip https://github.com/Rptreum/chia-hpool-docker/blob/main/HPool-Miner-chia-og-v1.5.6-1-linux.tar.gz?raw=true
+RUN curl -L -o hpool-miner.zip https://github.com/Rptreum/chia-hpool-docker/blob/main/linux.tar.gz
 RUN unzip hpool-miner.zip
 
 FROM ubuntu:20.04
